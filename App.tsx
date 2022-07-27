@@ -1,10 +1,9 @@
-import Home from "./src/screens/home";
 import * as font from "expo-font";
 import * as SplashScreen from "expo-splash-screen";
 import { useCallback, useEffect, useState } from "react";
 import { View } from "react-native";
 import { NavigationContainer } from "@react-navigation/native";
-import Stack from "./src/routes/stack";
+import Stack from "./routes/stack";
 
 SplashScreen.preventAutoHideAsync();
 
@@ -45,7 +44,7 @@ export default function App() {
   }
 
   return (
-    <View onLayout={onLayoutRootView}>
+    <View style={{ flex: 1 }} onLayout={onLayoutRootView}>
       <NavigationContainer>
         <Stack />
       </NavigationContainer>
