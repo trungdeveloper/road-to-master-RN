@@ -1,8 +1,8 @@
-import { globalStyles } from "../styles/global";
 import React from "react";
 import { Image, ImageBackground, StyleSheet, Text, View } from "react-native";
-import Swiper from "react-native-swiper/src";
+import Swiper from "react-native-swiper/src"; // eslint-disable-this-line
 import * as image from "../assets/images/onboarding-BG.png";
+import { globalStyles } from "../styles/global";
 
 const swiper = [
   {
