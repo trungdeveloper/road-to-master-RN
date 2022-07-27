@@ -1,6 +1,6 @@
 import React from 'react'
 import { Pressable, Text } from 'react-native'
-import { globalStyles } from "../../styles/global";
+import { globalStyles } from '../styles/global'
 
 
 interface SecondaryButtonProps {
